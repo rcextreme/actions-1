@@ -9,6 +9,9 @@ jobs:
             - name: welcome message
               run: echo "My first GH action job"
 
+            - name: Checkout Repo
+              uses: actions/checkout@v6
+              
             - name: List files
               run: ls
             
